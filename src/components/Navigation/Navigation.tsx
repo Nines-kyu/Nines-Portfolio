@@ -23,6 +23,7 @@ const Navigation: React.FC = () => {
         <>
             {[
                 { label: 'Home', href: '/' },
+                { label: 'Network', href: '/network'},
             ].map(({label, href}) => (
                 <Link
                     key={label}
